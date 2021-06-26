@@ -34,13 +34,13 @@
   width: min(30.2rem, 100%);
   margin-bottom: 4rem;
   padding: 1.3rem 1.6rem;
-  border: 2px solid var(--gray-blue);
+  border: 0.2rem solid var(--gray-blue);
   border-radius: 0.8rem;
   outline: none;
 }
 
 .modal-wrapper .modal input:focus {
-  border: 2px solid var(--blue);
+  border: 0.2rem solid var(--blue);
 }
 
 .modal-wrapper .modal .buttons {
