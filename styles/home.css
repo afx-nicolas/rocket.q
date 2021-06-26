@@ -58,7 +58,7 @@ button,
 
 .separator div:nth-child(2) {
   color: var(--gray-blue);
-  font-family: 'poppins', sans-serif;
+  font-family: "poppins", sans-serif;
   font-weight: 400;
   padding: 0 1.35rem;
   line-height: 0;
@@ -73,7 +73,12 @@ button,
 
 .ball {
   position: fixed;
-  background: linear-gradient(195.96deg, #5498FF -122.01%, #428EFF -8.36%, #297FFF 98.4%);
+  background: linear-gradient(
+    195.96deg,
+    #5498ff -122.01%,
+    #428eff -8.36%,
+    #297fff 98.4%
+  );
   clip-path: circle();
   opacity: 0.1;
 }
@@ -90,4 +95,10 @@ button,
   height: 21.2rem;
   bottom: -14.8rem;
   right: 5.8rem;
+}
+
+@media screen and (max-height: 820px) {
+  main {
+    margin-top: 0;
+  }
 }
