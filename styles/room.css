@@ -40,8 +40,8 @@ section#question-form {
   margin-bottom: 1.6rem;
 }
 
-section#question-form h2{
-  font-family: 'poppins', sans-serif;
+section#question-form h2 {
+  font-family: "poppins", sans-serif;
   font-size: 2.8rem;
   font-weight: 700;
   color: var(--black);
@@ -50,8 +50,8 @@ section#question-form h2{
 }
 
 section#question-form form {
-  border: .2rem solid var(--gray-blue);
-  border-radius: 0 .8rem .8rem .8rem;
+  border: 0.2rem solid var(--gray-blue);
+  border-radius: 0 0.8rem 0.8rem 0.8rem;
   padding: 1.6rem;
 }
 
@@ -75,7 +75,7 @@ section#question-form form footer {
 section#question-form form footer > div {
   display: flex;
   align-items: center;
-  font-family: 'poppins', sans-serif;
+  font-family: "poppins", sans-serif;
   font-weight: 400;
   font-size: 1.4rem;
   color: var(--icons-details);
@@ -88,4 +88,62 @@ section#question-form form footer > div img {
 
 section#question-form form footer button {
   padding: 0.8rem 2.4rem;
+}
+
+div.question-wrapper {
+  background: var(--light-blue);
+  padding: 2.4rem;
+  border-radius: 0 0.8rem 0.8rem 0.8rem;
+  margin-bottom: 0.8rem;
+}
+
+div.question-wrapper div.question-content {
+  display: flex;
+  align-items: flex-start;
+}
+
+div.question-wrapper div.question-content div.user {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  clip-path: circle();
+  padding: 1.4rem;
+  background-color: var(--blue);
+}
+
+div.question-wrapper.read {
+  background-color: var(--gray-alpha);
+}
+
+div.question-wrapper.read div.question-content div.user.read {
+  background-color: var(--gray-blue);
+}
+
+div.question-wrapper div.question-content > div.question > p {
+  display: flex;
+  min-height: 5.2rem;
+  align-items: center;
+  color: var(--black);
+  margin-left: 1.6rem;
+  word-break: break-word;
+}
+
+div.question-wrapper div.actions {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+div.question-wrapper div.actions > a {
+  display: flex;
+  align-items: center;
+  color: var(--gray);
+}
+
+div.question-wrapper div.actions > a > img {
+  margin-right: 0.8rem;
+}
+
+div.question-wrapper div.actions > a:last-child {
+  margin: 0 0.8rem 0 2.4rem;
 }
