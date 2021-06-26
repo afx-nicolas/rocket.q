@@ -38,6 +38,7 @@ input[type="number"] {
 }
 
 body {
+  display: flex;
   height: 100vh;
   background: var(--background);
 }
@@ -109,7 +110,7 @@ a.button.outlined {
 }
 
 .content header {
-  width: 80%;
+  width: min(112rem, 90%);
   margin: 3.5rem auto;
 }
 
